@@ -1,6 +1,5 @@
 package luisMavenAppium.TestAppiumTutorial;
 
-import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -22,7 +21,7 @@ public class mainTest extends AppiumTutorialCapabilitiesAPKInstalled {
         
        
         System.out.println("Done!!!!!!!!!");
-        
+              
         
 
 	}
