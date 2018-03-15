@@ -18,8 +18,11 @@ AndroidDriver<AndroidElement> androidDriver = Capabilities();
 		
 		AppiumTutorialPOHomePage homePage = new AppiumTutorialPOHomePage(androidDriver);
 		AppiumTutorialPOPreferencesPage preferences = new AppiumTutorialPOPreferencesPage(androidDriver);
+		AppiumTutorialPODependenciesPAge preferencesDep = new AppiumTutorialPODependenciesPAge(androidDriver);
 		homePage.Preferences.click();
 		preferences.Dependencies.click();
+		preferencesDep.WIFI.click();
+		
 
 	}
 
