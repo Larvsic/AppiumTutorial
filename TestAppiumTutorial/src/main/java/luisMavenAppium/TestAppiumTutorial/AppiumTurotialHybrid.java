@@ -19,7 +19,7 @@ public class AppiumTurotialHybrid extends AppiumTutorialHybridCapabilities {
 		androidDriver.findElementByXPath("//android.widget.TextView[@text='Preference']").click();
 		androidDriver.findElementByXPath("//android.widget.TextView[@text='3. Preference dependencies']").click();
 		androidDriver.findElementByXPath("//android.widget.CheckBox[@resource-id='android:id/checkbox']").click();
-		
+		//Commit
 
 	}
 
