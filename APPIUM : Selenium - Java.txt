@@ -1,0 +1,58 @@
+APPIUM / Selenium - Java
+
+** Open source automation testing tool **
+
+Supported Platforms
+
+·iOS
+·Android
+·Firefox OS
+
+Hybrid - combination of web and mobile apps create an hybrid app
+
+Web driver API supported by Selenium
+
+Scripts can be developed in Java, C#, Javascript, Python, Ruby.
+
+This course will be taught in Java and ECLIPSE ID
+
+----------------
+
+ARCHITECHTURE of APIUM
+
+Start APPIUM server before start running the program otherwise you cant run the test program.
+
+You need CAPABILITIES, they will help you to handle your commands
+
+In IOS you need from the apple delegates "something" to instrumentate your program
+
+
+
+------------------
+
+How to generate a Xpath from androidUIautomator
+
+1.- Select something - it has details
+2.- From the details - You can identify only by [package, class, resource-id, text, index] Core attributes
+3.- Syntax is : //tagName[@attribute='value']
+4.- tagName is : class attributes
+
+Ex.
+
+class - android.widget.Textview
+
+text - Preferences
+
+xpath would be : androidDriver.findElementByXPath("//android.widget.TextView[@text='Preference']");
+
+
+When a class and attribute is not unique - Class 25 section 5
+
+
+-------------------
+
+Decide whether run the testScript in a real device or an emulator class47 section 8
+
+
+
+
