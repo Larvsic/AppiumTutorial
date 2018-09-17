@@ -1,0 +1,3 @@
+Runtime.getRuntime().exec("cmd /c start C:\\appiumstart.bat"); -> Line to start appium server, commonly this is pasted in @BeforeMethod
+
+"C:\node.exe" "C:\Appium\Appium\node_modules\appium\bin\appium.js" -> We need to create a "appiumstart.bat" file with this line inside
